@@ -1,0 +1,68 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #ded40b, #dee905);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the container */
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Style for the title */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the joke text */
+  .joke-text {
+    font-size: 18px;
+    color: #444;
+    margin: 20px 0;
+  }
+  
+  /* Style for buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-right: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the "Tweet" button */
+  .tweet-btn {
+    background-color: #1da1f2;
+  }
+  
+  .tweet-btn:hover {
+    background-color: #0b7bbd;
+  }
+  
